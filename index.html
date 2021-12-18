@@ -6,36 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
     <title>Studio</title>
 </head>
 <body>
     <!-- Шапка страницы -->
-    <header>
-        <nav class="navigation">
+<header>
+    <div class="nav-main container">
+        <nav class="nav-logo">
             <a class="logo" href="./index.html"><span class="web-title">Web</span>Studio</a>
             <!-- Навигация в шапке -->
             <ul class="nav-list">
-                <li><a class="nav-link current" href="/">Студия</a></li>
+                <li><a class="nav-link current" href="./index.html">Студия</a></li>
                 <li><a class="nav-link" href="./portfolio.html">Портфолио</a></li>
                 <li><a class="nav-link" href="./contacts.html">Контакты</a></li>
             </ul>
         </nav>
+
         <!-- Контакты -->
         <ul class="nav-contacts">
             <li><a class="contacts-link" href="/">info@devstudio.com</a></li>
             <li><a class="contacts-link" href="/">+380961111111</a></li>
         </ul>
-    </header>
+    </div>
+</header>
     <main>
         <!-- Блок под рекламу/видео -->
-        <section class="hero">
+        <section class="hero container">
             <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
             <button type="button" class="btn">Заказать услугу</button>
         </section>
         <!-- Перечисление четырёх особенностей -->
-        <section class="section">
-            <h2 class="section-header"> Чем мы занимаемся </h2>
+        <section class="section-features container">
+            <h2 class="hidden"> Чем мы занимаемся </h2>
             <ul class="features-list">
                 <li class="features-item">
                     <h3 class="header-three">Внимание к деталям</h3>
@@ -56,34 +62,34 @@
             </ul>
         </section>
         <!-- Чем мы занимаемся -->
-        <section class="section">
-            <!-- <h2>Чем мы занимаемся</h2> -->
+        <section class="section-img">
+            <h2 class="section-header">Чем мы занимаемся</h2>
             <ul class="img-list">
-                <li><img class="img" src="./images/box-one.jpg" alt="Изображение 1"></li>
-                <li><img class="img" src="./images/box-two.jpg" alt="Изображение 2"></li>
-                <li><img class="img" src="./images/box-three.jpg" alt="Изображение 3"></li>
+                <li><img class="img" src="./images/box-one.jpg" alt="Изображение 1" width="370" height="294"></li>
+                <li><img class="img" src="./images/box-two.jpg" alt="Изображение 2" width="370" height="294"></li>
+                <li><img class="img" src="./images/box-three.jpg" alt="Изображение 3" width="370" height="294"></li>
             </ul>
         </section>
         <!-- Наша команда -->
-        <section class="section">
+        <section class="section-team container">
             <h2 class="section-header">Наша команда</h2>
-            <ul>
-                <li>
+            <ul class="team-list">
+                <li class="teammember">
                     <img src="./images/img-one.jpg" alt="Product Designer" width="270" height="260">
                     <h3 class="name">Игорь Демьяненко</h3>
                     <p class="job-title">Product Designer</p>
                 </li>
-                <li>
+                <li class="teammember">
                     <img src="./images/img-two.jpg" alt="Frontend Developer" width="270" height="260">
                     <h3 class="name">Ольга Репина</h3>
                     <p class="job-title">Frontend Developer</p>
                 </li>
-                <li>
+                <li class="teammember">
                     <img src="./images/img-three.jpg" alt="Marketing" width="270" height="260">
                     <h3 class="name">Николай Тарасов</h3>
                     <p class="job-title">Marketing</p>
                 </li>
-                <li>
+                <li class="teammember">
                     <img src="./images/img-four.jpg" alt="UI Designer" width="270" height="260">
                     <h3 class="name">Михаил Ермаков</h3>
                     <p class="job-title">UI Designer</p>
@@ -92,7 +98,7 @@
         </section>
     </main>
     <!-- нижняя панель контаков -->
-    <footer class="footer">
+    <footer class="footer container">
         <a class="logo" href="./index.html"><span class="web-title">Web</span>Studio</a>
         <address>
             <ul class="footer-list">
