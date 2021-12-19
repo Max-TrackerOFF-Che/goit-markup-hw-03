@@ -32,15 +32,18 @@ p {
   padding: 0;
 }
 /* Навигация в шапке */
-.logo {
+.logo,
+.logo-footer {
   font-family: 'Raleway', sans-serif;
   color: inherit;
   font-size: 26px;
   line-height: 1.2;
   font-weight: bold;
   text-decoration: none;
+  padding-right: 93px;
 }
-.logo .web-title {
+.logo .web-title,
+.logo-footer .web-title {
   color: var(--hover-effect);
 }
 .nav-list,
@@ -68,6 +71,7 @@ p {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  margin-right: 50px;
 }
 
 .nav-list .nav-link:hover,
@@ -83,11 +87,10 @@ p {
 }
 .nav-main {
   margin: auto;
-  padding: auto;
   display: flex;
-  height: 80px;
   align-items: center;
   justify-content: space-between;
+  padding: 24px 0px 25px 0px;
 }
 .nav-logo {
   display: flex;
@@ -99,6 +102,8 @@ p {
   align-items: center;
   width: 294px;
   justify-content: space-between;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .nav-contacts {
@@ -281,12 +286,9 @@ p {
 .button-list {
   display: flex;
   width: 611px;
-  height: 54px;
-  padding-bottom: 16px;
   margin-left: auto;
   margin-right: auto;
-  align-items: flex-start;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 /* Блок проэктов */
@@ -311,7 +313,6 @@ p {
 }
 .projects {
   width: 1170px;
-  height: 1360px;
   background-color: var(--background-color);
   margin: 90px auto 90px;
 }
@@ -324,7 +325,6 @@ p {
 }
 .project-item {
   width: 370px;
-  height: 404px;
   border: 1px solid var(--border-color);
   box-sizing: border-box;
   margin-bottom: 30px;
@@ -340,6 +340,7 @@ p {
   font-weight: 400;
   line-height: 1.71;
   padding-bottom: 9px;
+  margin-top: 20px;
 }
 
 .footer-link:hover,
@@ -349,18 +350,16 @@ p {
 .footer {
   margin: auto;
   padding: auto;
-  height: 252px;
 }
 footer {
   background-color: var(--footer-bg-color);
   display: flex;
   flex-direction: column;
 }
-footer > .logo {
+.logo-footer {
   color: var(--background-color);
-  padding-top: 60px;
-  padding-bottom: 20px;
 }
-.footer-list {
+.footer-list.footer-link {
   align-content: space-between;
+  margin-bottom: 9px;
 }
