@@ -14,7 +14,7 @@
 </head>
 <body>
     <!-- Шапка страницы -->
-<header>
+<header class="header">
     <div class="nav-main container">
         <nav class="nav-logo">
             <a class="logo" href="./index.html"><span class="web-title">Web</span>Studio</a>
@@ -35,12 +35,12 @@
 </header>
     <main>
         <!-- Блок под рекламу/видео -->
-        <section class="hero container">
+        <div class="hero container">
             <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
             <button type="button" class="btn">Заказать услугу</button>
-        </section>
+        </div>
         <!-- Перечисление четырёх особенностей -->
-        <section class="section-features container">
+            <div class="container"> 
             <h2 class="hidden"> Чем мы занимаемся </h2>
             <ul class="features-list">
                 <li class="features-item">
@@ -60,18 +60,21 @@
                     <p class="features-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
-        </section>
+            </div>
         <!-- Чем мы занимаемся -->
-        <section class="section-img">
+        <section class="section">
+            <div class="container">
             <h2 class="section-header">Чем мы занимаемся</h2>
             <ul class="img-list">
                 <li><img class="img" src="./images/box-one.jpg" alt="Изображение 1" width="370" height="294"></li>
                 <li><img class="img" src="./images/box-two.jpg" alt="Изображение 2" width="370" height="294"></li>
                 <li><img class="img" src="./images/box-three.jpg" alt="Изображение 3" width="370" height="294"></li>
             </ul>
+            </div>
         </section>
         <!-- Наша команда -->
-        <section class="section-team container">
+        <section class="section">
+            <div class="container">
             <h2 class="section-header">Наша команда</h2>
             <ul class="team-list">
                 <li class="teammember">
@@ -95,6 +98,7 @@
                     <p class="job-title">UI Designer</p>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
     <!-- нижняя панель контаков -->
