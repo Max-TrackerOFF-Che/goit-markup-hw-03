@@ -193,9 +193,8 @@ h4 {
 }
 .team-list {
   display: flex;
-  flex-direction: row;
-  padding-left: 0;
-  padding-top: 90px;
+  margin-top: 90px;
+  padding-left: 14px;
 }
 .teammember:not(:last-child) {
   margin-right: 30px;
