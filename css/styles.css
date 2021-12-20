@@ -307,25 +307,25 @@ img {
 .project-link {
   text-decoration: none;
 }
+.card-footer {
+  padding: 20px 24px;
+}
 .header-two {
   color: var(--primary-text-color);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin: 20px 24px 4px;
 }
 .project-item .project-text {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.87;
-  margin: 4px 24px 20px;
 }
 
 .project-item {
   border: 1px solid var(--border-color);
   margin-right: 30px;
   margin-bottom: 30px;
-  flex-basis: calc((100% - 90px) / 3);
 }
 .project-image {
   margin-left: 0;
