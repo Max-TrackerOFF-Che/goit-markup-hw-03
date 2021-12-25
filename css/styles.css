@@ -137,7 +137,6 @@ img {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  align-content: center;
 }
 .section {
   padding-bottom: 94px;
@@ -315,21 +314,19 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-
-  margin-right: 24px;
-  margin-left: 24px;
-  margin-top: 20px;
 }
 .project-text {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.87;
-
-  margin: 4px 24px 20px;
 }
-
+.project-title {
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--border-color);
+  border-left: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
+}
 .project-item {
-  border: 1px solid var(--border-color);
   margin-right: 30px;
   margin-bottom: 30px;
 }
