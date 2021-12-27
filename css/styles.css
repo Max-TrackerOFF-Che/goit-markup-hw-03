@@ -135,6 +135,8 @@ img {
 /* Вспомогательный контейнер */
 .container {
   width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -196,9 +198,8 @@ img {
 }
 
 .img-list {
-  padding-left: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .team-list {
